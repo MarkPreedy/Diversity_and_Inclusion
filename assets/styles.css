@@ -21,7 +21,7 @@ h1 {
     margin-bottom: 30px;
 }
 .carousel-item img {
-    height: 500px; /* Set the desired height */
+    height: 80vh; /* Set the desired height */
     object-fit: cover; /* Ensure the image covers the entire area */
     width: 100%; /* Ensure the image takes the full width */
   }
@@ -37,3 +37,28 @@ h1 {
     margin-top: 10px; /* Adjust as needed */
     margin-bottom: 10px;
   }
+
+/* Media queries for responsive carousel images */
+@media (max-width: 1200px) {
+  .carousel-item img {
+      height: 70vh;
+  }
+}
+
+@media (max-width: 992px) {
+  .carousel-item img {
+      height: 60vh;
+  }
+}
+
+@media (max-width: 768px) {
+  .carousel-item img {
+      height: 50vh;
+  }
+}
+
+@media (max-width: 576px) {
+  .carousel-item img {
+      height: 40vh;
+  }
+}
