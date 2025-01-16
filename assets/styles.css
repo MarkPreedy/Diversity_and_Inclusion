@@ -1,6 +1,39 @@
-/*  google font import */
+/* google font import */
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,wght@8..144,100..1000&display=swap');
 
 body {
-    font-family: 'Roboto Flex' sans-serif;
+    background-color: aquamarine;
+    font-family: 'Roboto Flex', sans-serif;
+    color: rgb(79, 46, 46);
 }
+
+h1 {
+    font-size: 3.5em;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+.intro {
+    font-size:  1.5rem;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.carousel-item img {
+    height: 500px; /* Set the desired height */
+    object-fit: cover; /* Ensure the image covers the entire area */
+    width: 100%; /* Ensure the image takes the full width */
+  }
+
+.text-button-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-center;
+  }
+  
+.text-button-container .btn {
+    align-self: flex-center;
+    margin-top: 10px; /* Adjust as needed */
+    margin-bottom: 10px;
+  }
