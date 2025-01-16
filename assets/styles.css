@@ -6,3 +6,9 @@ body {
     font-family: 'Roboto Flex', sans-serif;
     color: rgb(79, 46, 46);
 }
+
+.carousel-item img {
+    height: 500px; /* Set the desired height */
+    object-fit: cover; /* Ensure the image covers the entire area */
+    width: 100%; /* Ensure the image takes the full width */
+  }
