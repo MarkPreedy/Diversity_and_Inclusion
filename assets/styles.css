@@ -26,6 +26,16 @@ h1 {
     width: 100%; /* Ensure the image takes the full width */
   }
 
+  .carousel-caption {
+    position: absolute;
+    color: white;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.5); /* Optional: Add a background color with transparency */
+    padding: 10px;
+    border-radius: 5px;
+  }
+
+
 .text-button-container {
     display: flex;
     flex-direction: column;
